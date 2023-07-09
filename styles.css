@@ -1,1 +1,101 @@
 /* your code here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+footer {
+    background-color: black;
+}
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+.Cname h1 {
+    color: white;
+    margin: 20px 30px;
+}
+.media-icons {
+    color: white;
+    display: flex;
+    gap: 20px;
+    margin: 20px 30px;
+}
+a {
+    color: white;
+}
+
+.container {
+.link-boxes {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.link-boxes {
+.features {
+    color: #B6B6B6;
+}
+
+h3 {
+    position: relative;
+}
+li {
+    margin-top: 20px;
+    ;
+}
+
+.link-boxes h3::before {
+.features h3::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 30%;
+    height: 2px;
+    background-color: #B6B6B6;
+}
+.sub-footer {
+    background-color: #2C313B;
+    color: #B6B6B6;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.copyright {
+    margin-left: 30px;
+    font-size: 12px;
+}
+.privacy {
+    margin-right: 30px;
+    font-size: 12px;
+}
+.fa-facebook {
+    background-color: #4367B3;
+    padding: 15px;
+    border-radius: 50px;
+}
+.fa-twitter {
+    background-color: #1DA0F3;
+    padding: 15px;
+    border-radius: 50px;
+}
+.fa-instagram {
+    background-color: #E0316C;
+    padding: 15px;
+    border-radius: 50px;
+}
+.fa-linkedin {
+    background-color: #0177B4;
+    padding: 15px;
+    border-radius: 50px;
+}
+.fa-youtube {
+    background-color: #FE0100;
+    padding: 15px;
+    border-radius: 50px;
+}
